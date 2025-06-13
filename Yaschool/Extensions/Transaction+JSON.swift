@@ -1,6 +1,6 @@
 //
 //  Transaction+JSON.swift
-//  Financial Tamer
+//  Yaschool
 //
 //  Created by Ivan Isaev on 11.06.2025.
 //
