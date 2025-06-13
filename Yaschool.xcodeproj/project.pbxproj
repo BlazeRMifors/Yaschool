@@ -25,6 +25,7 @@
 		8ED44C872DFC1E2C0035D423 /* TransactionsFileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C862DFC1E2C0035D423 /* TransactionsFileCache.swift */; };
 		8ED44C892DFC242A0035D423 /* Category+CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C882DFC242A0035D423 /* Category+CSV.swift */; };
 		8ED44C8B2DFC30F80035D423 /* Category+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C8A2DFC30F80035D423 /* Category+JSON.swift */; };
+		8ED44C8D2DFC94650035D423 /* TransactionParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C8C2DFC94650035D423 /* TransactionParsingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		8ED44C862DFC1E2C0035D423 /* TransactionsFileCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsFileCache.swift; sourceTree = "<group>"; };
 		8ED44C882DFC242A0035D423 /* Category+CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CSV.swift"; sourceTree = "<group>"; };
 		8ED44C8A2DFC30F80035D423 /* Category+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+JSON.swift"; sourceTree = "<group>"; };
+		8ED44C8C2DFC94650035D423 /* TransactionParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionParsingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED44C592DFC1C500035D423 /* YaschoolTests.swift */,
+				8ED44C8C2DFC94650035D423 /* TransactionParsingTests.swift */,
 			);
 			path = YaschoolTests;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED44C8D2DFC94650035D423 /* TransactionParsingTests.swift in Sources */,
 				8ED44C5A2DFC1C500035D423 /* YaschoolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
